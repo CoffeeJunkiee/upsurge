@@ -26,7 +26,7 @@ To use Upsurge, the OS must be a Linux Distribution, as also get to install diff
 
 # Updates
 
-According the time Ambush it’s going to improve its functions adding more features at it. Every feedback is very welcome.
+According the time upsurge is going to improve its functions adding more features at it. Every feedback is very welcome.
 If you have any questions or feedbacks, feel free to contact me in twitter as [**@InsanePgroove**](https://twitter.com/insanePgroove)
 
 # Look me in Platzi
