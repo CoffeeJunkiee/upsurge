@@ -118,7 +118,6 @@ def options():
         os.system('./les.sh')
         print 'Finished!'
         sys.exit()
-    else:
-        print '-_- Something went wrong' 
+
 
 options()
