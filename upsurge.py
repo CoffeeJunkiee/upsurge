@@ -30,7 +30,7 @@ def options():
     print 'What do you want to do? '
     print
     print '[1] Escalation directories.'
-    print '[2] Linux exploit sugester'
+    print '[2] Linux exploit sugester.'
     print
 
     option = raw_input('Select your option: ')
