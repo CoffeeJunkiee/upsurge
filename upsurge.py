@@ -114,7 +114,7 @@ def options():
         print col.RED+'Link: github.com/mzet-/linux-exploit-suggester'+col.END
         print col.YEL+'[*]Loading...'+col.END
         os.system('wget https://raw.githubusercontent.com/mzet-/linux-exploit-suggester/master/linux-exploit-suggester.sh -O les.sh')
-        os.system('chmmod +x les.sh')
+        os.system('chmod +x les.sh')
         os.system('./les.sh')
         print 'Finished!'
         sys.exit()
