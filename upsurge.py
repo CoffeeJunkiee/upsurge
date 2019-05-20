@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+
 import os
 import sys
 from time import sleep
@@ -23,7 +24,6 @@ def _print_welcome():
 
 _print_welcome()
 
-
 def options():
     print 'What do you want to do? '
     print
@@ -32,7 +32,7 @@ def options():
     print
 
     option = raw_input('Select your option: ')
-    
+
     if option == '1':
         print
         print  col.YEL+'[*]Loading...'+col.END
@@ -47,7 +47,7 @@ def options():
         os.system('cat /etc/service')
         os.system('ps aux | grep root')
         print col.RED+'Web server configuration.'+col.END
-        os.system('cat /etc/chttp.conf'
+        os.system('cat /etc/chttp.conf')
         os.system('cat /etc/lighttpd.conf')
         os.system('cat /etc/apache2/apache2.conf')
         os.system('cat /etc/httpd/conf/httpd.conf')
